@@ -1,11 +1,42 @@
 # Reuse-Hub
-Our project’s aim is to develop a campus-only online marketplace and resource sharing platform which simplifies student life by connecting seniors and freshers within college. 
-The motivation arises from the recurring problem faced by new students which is access to affordable study materials, books, and hostel essentials while many seniors basically end up throwing away a lot of resources.
 
-Existing solutions such as OLX, Amazon, or informal WhatsApp groups are either too general or unorganized for campus-only exchanges.
-The project’s aim is to create a secure, user-friendly website that enables students to share, donate, or sell their study materials and personal items exclusively between college students.
+Reuse-Hub is a campus-focused marketplace and resource-sharing platform designed to connect students, simplify access to affordable academic materials, and encourage the reuse of essential items.
 
-The system will consist of two primary modules: a Notes Sharing section, where seniors can upload study materials organized by subject and semester, and a Marketplace module for listing reusable items like books/lab equipment for sale. A simple messaging interface will ensure safe and direct communication between buyers and sellers.
+## Problem Statement
 
-Technically, the platform will be developed using Python (FastAPI and MongoDB) for the backend, SQLite for database management, and HTML, CSS, and JavaScript for frontend. As for authentication only verified student IDs will be able to log in, ensuring a trustworthy environment. The system will undergo tests before deployment on a local or cloud server such as PythonAnywhere or Heroku.
-The final product will give rise to an affordable collaboration among students by allowing the reuse of resources and easy access to academic supplies. Beyond reducing costs, the project encourages community building, knowledge sharing, and environmental responsibility leading to better student-exchange resources within their campus ecosystem.
+College students often struggle to find affordable textbooks, study materials, and hostel essentials. At the same time, senior students may have unused resources that could benefit incoming students.
+
+Existing platforms such as OLX and informal student groups are not specifically designed for organized, campus-exclusive exchanges.
+
+## Solution
+
+Reuse-Hub aims to provide a centralized platform where students can buy, sell, donate, and discover reusable items while accessing academic notes shared by senior students. A private messaging interface facilitates direct communication between buyers and sellers.
+
+## Features
+
+- **Buy & Sell Pre-Owned Products:** Allows students to list, browse, and purchase second-hand items such as books and hostel essentials.
+- **Academic Notes Sharing:** Enables students to share and access study materials organized by subject and semester.
+- **Real-Time Private Messaging:** Facilitates direct communication between buyers and sellers without requiring them to disclose their personal phone numbers.
+
+## Tech Stack
+
+- **Backend:** Python, FastAPI
+- **Database:** MongoDB
+- **Frontend:** HTML, CSS, JavaScript
+
+## Project Goals
+
+- Make academic materials and everyday essentials more affordable.
+- Encourage resource reuse and reduce unnecessary waste.
+- Promote collaboration and knowledge sharing within the campus community.
+
+## Project Status
+
+Semester project developed as part of learning web application development.
+
+## Future Improvements
+
+- Student identity verification.
+- Search, filtering, and category-based browsing.
+- Improved item listings and resource discovery.
+- Enhanced messaging and user account management.
